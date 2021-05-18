@@ -6,7 +6,8 @@ metadata:
   name: k8sdemo-integration
 spec:
   ports:
-    - port: 9120
+    - nodePort: 31120
+      port: 9120
       protocol: TCP
       targetPort: 9120
   selector:

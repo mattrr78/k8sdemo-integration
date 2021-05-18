@@ -9,7 +9,6 @@ spec:
     - name: pv-storage
       persistentVolumeClaim:
         claimName: k8sdemo-integration-pvc
-  dnsPolicy: Default
   containers:
     - name: k8sdemo-integration
       image: docker.io/library/k8sdemo-integration:v1.0.0
