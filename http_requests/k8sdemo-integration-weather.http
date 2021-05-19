@@ -1,1 +1,1 @@
-GET http://localhost:9120/k8sdemo/integration/weather?city=Lititz&state=Pennsylvania&country=US
+GET http://localhost:9120/k8sdemo/integration/weather?city=Carlisle&state=Pennsylvania&country=US
